@@ -6,3 +6,4 @@ cd ../02vmWithARM
 cd ../04CommonTasks
 /usr/local/bin/ansible-playbook common_tasks.yml
 
+
