@@ -1,5 +1,5 @@
 ---
-- hosts: webserver
+- hosts: vm0
   tasks:
   - name: Update repositories cache and install "foo" package
     apt:

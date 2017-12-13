@@ -10,7 +10,7 @@
       }
     },
     "variables": {
-        "repoUri" : "http://github.ebaykorea.com/jinyoo/azureStudy/tree/master/homework01/01Shared/"
+        "repoUri" : "https://raw.githubusercontent.com/empireyjh/azureStudy/master/homework01/01Shared/"
     },
     "resources": [
         {

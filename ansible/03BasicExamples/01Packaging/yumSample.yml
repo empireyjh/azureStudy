@@ -1,5 +1,5 @@
 ---
-- hosts: webserver
+- hosts: vm0
   tasks:
   - name: install the latest version of Apache
     yum:
