@@ -1,5 +1,5 @@
 {
-    "$schema": "http://github.ebaykorea.com/raw/jinyoo/azureStudy/master/homework01/01Shared/",
+    "$schema": "https://github.com/empireyjh/azureStudy/tree/master/homework01/01Shared/",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "vnet_name": {
@@ -10,7 +10,7 @@
       }
     },
     "variables": {
-        "repoUri" : "http://github.ebaykorea.com/raw/jinyoo/azureStudy/master/homework01/01Shared/"
+        "repoUri" : "https://github.com/empireyjh/azureStudy/tree/master/homework01/01Shared/"
     },
     "resources": [
         {
