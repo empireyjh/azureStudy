@@ -1,5 +1,5 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "$schema": "http://github.ebaykorea.com/raw/jinyoo/azureStudy/master/homework01/01Shared/",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "vnet_name": {
@@ -10,12 +10,12 @@
       }
     },
     "variables": {
-        "repoUri" : "https://raw.githubusercontent.com/msjo66/azureStudy/master/homework01/01Shared/"
+        "repoUri" : "http://github.ebaykorea.com/raw/jinyoo/azureStudy/master/homework01/01Shared/"
     },
     "resources": [
         {
             "apiVersion": "2017-05-10", 
-            "name": "minschoNet01", 
+            "name": "jinhoNet01", 
             "type": "Microsoft.Resources/deployments", 
             "properties": { 
               "mode": "Incremental", 
@@ -47,7 +47,7 @@
               } 
             },
             "dependsOn": [
-                "minschoNet01"
+                "jinhoNet01"
             ]
         },
         {
@@ -68,7 +68,7 @@
               } 
             },
             "dependsOn": [
-                "minschoNet01"
+                "jinhoNet01"
             ]
         },
         {
@@ -89,7 +89,7 @@
               } 
             },
             "dependsOn": [
-                "minschoNet01"
+                "jinhoNet01"
             ]
         }
     ]
