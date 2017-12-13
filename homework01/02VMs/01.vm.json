@@ -40,7 +40,7 @@
         }
     },
     "variables": {
-        "netRGName":"jinhoRG01",
+        "netRGName":"jinhoVnet01",
         "subscriptionId":"[subscription().subscriptionId]"
     },
     "resources": [
