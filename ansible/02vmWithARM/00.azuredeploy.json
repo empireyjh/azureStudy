@@ -19,7 +19,7 @@
         }
     },
     "variables": {
-        "repoUri" : "https://raw.githubusercontent.com/empireyjh/azureStudy/master/ansible/02vmWithARM/"
+        "repoUri" : "https://raw.githubusercontent.com/empireyjh/azureStudy/master/homework01/02VMs/"
     },
     "resources": [
         {
