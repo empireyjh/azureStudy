@@ -40,7 +40,11 @@
         }
     },
     "variables": {
+<<<<<<< HEAD
         "netRGName":"jinhoRG01",
+=======
+        "netRGName":"jinhoVnet01",
+>>>>>>> 8072ef4f768d2f0445f614c72cb2305f57cd31a6
         "subscriptionId":"[subscription().subscriptionId]"
     },
     "resources": [
@@ -96,6 +100,7 @@
                 }
             }
         }
+<<<<<<< HEAD
     ],
     "outputs": {
         "publicIPAddress":{
@@ -104,3 +109,7 @@
         }
     }
 }
+=======
+    ]
+}
+>>>>>>> 8072ef4f768d2f0445f614c72cb2305f57cd31a6
